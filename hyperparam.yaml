@@ -1,0 +1,28 @@
+trainingInput:
+  hyperparameters:
+    goal: MINIMIZE
+    maxTrials: 100
+    maxParallelTrials: 4
+    enableTrialEarlyStopping: True
+    hyperparameterMetricTag: metric1
+    params:
+    - parameterName: learning_rate
+      type: DOUBLE
+      minValue: 0.001
+      maxValue: 0.01
+      scaleType: UNIT_LOG_SCALE
+    - parameterName: first-layer-size
+      type: INTEGER
+      minValue: 50
+      maxValue: 200
+      scaleType: UNIT_LINEAR_SCALE
+    - parameterName: num-layers
+      type: INTEGER
+      minValue: 1
+      maxValue: 10
+      scaleType: UNIT_LINEAR_SCALE
+    - parameterName: scale-factor
+      type: DOUBLE
+      minValue: 0.1
+      maxValue: 1.0
+      scaleType: UNIT_REVERSE_LOG_SCALE
