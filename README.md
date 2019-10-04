@@ -1,7 +1,7 @@
 **Project statement:**  To develop a model which predicts the virality of an article in the shortest minimum time after it is published on the website.
 
 
-**Project scope:** This project is only developing virality predictive algorithm for text articles getting published on ww.punjabkesari.in. 
+**Project scope:** This project foucses on predicting virality for the text articles getting published on the client website. 
 Articles getting published on android and ios apps is out of scope for this project. 
 
 **Project owner:** Dhruv Patel 
